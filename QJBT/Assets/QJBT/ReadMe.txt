@@ -1,3 +1,4 @@
+*The designer window is accessed through the "Windows" tab e.g. Windows->QJBT Behaviour Tree Window.
 *Functionalities and available nodes are all accessed by right-click context menu (you have to right click on a node to bring up the context menu)
 *Nodes are process from left to right.
 *Refer to the example on how to implement leaf nodes.
