@@ -17,7 +17,6 @@ public class Gun : MonoBehaviour
     {
         if(Time.time - _lastFireTime > _firaRate)
         {
-            var line = new LineRenderer();
             _lastFireTime = Time.time;
             _lineRenderer.SetPosition(0, transform.position);
             _lineRenderer.SetPosition(1, transform.position + transform.forward * 1000.0f);
